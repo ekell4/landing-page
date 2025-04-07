@@ -1,0 +1,148 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+.navigation {
+    background: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero {
+    background: #1F2937;
+    color:#e5e7eb;
+    display: flex;
+    padding: 50px 150px;
+    gap: 50px;
+}
+
+h1 {
+    color:#f9faf8;
+    margin: 0;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+}
+
+button {
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 25px;
+    background-color: #3882f6;
+}
+
+.hero-image {
+    background:#7f7f7f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 300px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0 70px 0;
+}
+
+.random-items {
+    display: flex;
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    gap: 20px;
+}
+
+.random-image {
+    width: 125px;
+    height: 125px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+.testimonial {
+    background:#e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 100px 270px;
+}
+
+.testimonial-giver {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
+}
+
+.cta {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#3882f6;
+    margin: 50px 80px;
+    flex: 1;
+    padding: 40px 100px;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    color:#f9faf8;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.cta-button {
+    border-style: solid;
+    border-width: 2px;
+    border-color:#f9faf8;
+}
